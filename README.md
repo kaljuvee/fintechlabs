@@ -7,5 +7,5 @@ Includes some data science related work and projects
 
 The *notebooks* folder includes:
 
-* *recipes* - some illustrative / useful notebooks and data science recipes related to the key libraries
+* **recipes** - some illustrative / useful notebooks and data science recipes related to the key libraries
 

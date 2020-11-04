@@ -2,13 +2,21 @@
 
 The aim of this sample job is to create a set of simple JSON extract files from various csv sources based on specific conditionis (weekly aggregation)
 
+# Intstellin
+
+After cloning this repository, set up Python environment and install any dependencies as follows:
+
+`export PYTHONPATH=$(pwd):$PYTHONPATH`
+`cd ./<project_dir>`
+`pip3 install -r requirements.txt`
+
 # Running Job
 
-After cloning this repository and installing the standard Python and Spark (cluster) environments, run the following command:
+On a machine with Spark cluster installed, run the following command:
 
-`spark-submit run_spark_test.py sales.csv calendar.csv store.csv product.csv`
+`spark-submit main.py calendar.csv product.csv sales.csv store.csv --cluster_size 2`
 
-The output should be 70 specific JSON files as described below.
+The output should be 70 specific JSON files as described below and shown in json_files.zip.
 
 # Data
 

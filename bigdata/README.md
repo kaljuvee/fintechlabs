@@ -1,6 +1,14 @@
 # Overview
 
-The aim of this exercise is to create bunch of simple JSON extract files from various csv sources based on the conditions. (weekly aggregator)
+The aim of this sample job is to create a set of simple JSON extract files from various csv sources based on specific conditionis (weekly aggregation)
+
+# Running Job
+
+After cloning this repository and installing the standard Python and Spark (cluster) environments, run the following command:
+
+`spark-submit run_spark_test.py sales.csv calendar.csv store.csv product.csv`
+
+The output should be 70 specific JSON files as described below.
 
 # Data
 

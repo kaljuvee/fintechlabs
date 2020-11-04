@@ -6,9 +6,9 @@ The aim of this sample job is to create a set of simple JSON extract files from 
 
 After cloning this repository, set up Python environment and install any dependencies as follows:
 
-`export PYTHONPATH=$(pwd):$PYTHONPATH`
-`cd ./<project_dir>`
-`pip3 install -r requirements.txt`
+* `export PYTHONPATH=$(pwd):$PYTHONPATH`
+* `cd ./<project_dir>`
+* `pip3 install -r requirements.txt`
 
 # Running Job
 
